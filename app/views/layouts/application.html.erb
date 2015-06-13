@@ -2,10 +2,26 @@
 <html>
 <head>
   <title>Biosite</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
+<header class="container-fluid">
+  <div class="row">
+    <div class="col-xs-6">
+      Cate U
+    </div>
+    <div class="col-xs-2">
+      Who?
+    </div>
+    <div class="col-xs-2">
+      CV
+    </div>
+    <div class="col-xs-2">
+      Projects
+    </div>
+  </div>
+</header>
 <body>
 
 <%= yield %>
