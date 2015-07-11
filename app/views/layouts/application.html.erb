@@ -2,27 +2,31 @@
 <html>
 <head>
   <title>Biosite</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
-<header class="container-fluid">
-  <div class="row">
-    <div class="col-xs-6">
-      Cate U
-    </div>
-    <div class="col-xs-2">
-      Who?
-    </div>
-    <div class="col-xs-2">
-      CV
-    </div>
-    <div class="col-xs-2">
-      Projects
-    </div>
-  </div>
-</header>
-<body>
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-fixed-top">
+        <div class="container">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="simple-nav">
+                <ul class="list-inline social-buttons">
+                    <li><a class="icon" href="https://twitter.com/catusel"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li><a class="icon" href="https://github.com/catstavi"><i class="fa fa-github"></i></a>
+                    </li>
+                    <li><a class="icon" href="https://www.linkedin.com/pub/cate-uselton/61/5bb/62a"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
 <%= yield %>
 

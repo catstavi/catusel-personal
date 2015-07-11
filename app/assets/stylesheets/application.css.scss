@@ -17,22 +17,44 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+header {
+  // padding-top:300px;
+  background-image: url(cateprofile.jpg);
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 400px;
+
+}
+
+header .intro-text {
+  padding-top: 300px;
+  padding-bottom: 200px;
+}
 
 body {
   // background-color: gray;
 }
 
-header {
-  background-color: gray;
+.navbar {
+  background: transparent;
+  border-color: transparent;
 }
 
-.top-buffer {
-  margin-top: 100px;
-}
-
-.center {
-  text-align: center;
-}
+//
+// .top-buffer {
+//   margin-top: 100px;
+// }
+//
+// .center {
+//   text-align: center;
+// }
 
 .biopic-container {
   text-align: center;
@@ -40,8 +62,20 @@ header {
   display: inline-block;
 }
 
-.biopic-container > img {
-  width: 500px;
-  height: 500px;
-  display: block;
+.social-buttons {
+  float:right;
+}
+
+.icon {
+  color: white;
+  padding: 20px;
+  font-size: 3em;
+}
+.icon:hover {
+  color: lightgray;
+  text-decoration: none;
+}
+
+#biopic {
+  border-radius: 20%;
 }
